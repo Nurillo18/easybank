@@ -1086,6 +1086,10 @@ img {
   margin-left: 160px;
 }
 
+.footer__btn-link:hover {
+  background: #83E0B0;
+}
+
 .footer__last-blok {
   margin: 0;
   font-family: "Public Sans";
