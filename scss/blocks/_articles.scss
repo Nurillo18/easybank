@@ -28,8 +28,6 @@
     border-radius: 5px;
 }
 .articles__blok{
-    padding-top: 25px;
-    padding-left: 24px;
     display: block;
     margin: 0;
     font-family: "Public Sans";
@@ -40,7 +38,7 @@
 }
 .articles__content{
     width: 231px;
-    padding-top: 8px;
+    padding-top: 25px;
     padding-left: 24px;
     margin-bottom: 24px;
 }
@@ -58,6 +56,7 @@
     margin-bottom: 8px;
     cursor: pointer;
     transition: color 0.3s;
+    margin-top: 8px;
 
     &:hover{
         color: #30C88F;
@@ -106,5 +105,16 @@
     }
     .articles__list{
         margin-top: 31px;
+    }
+}
+@media only screen and (max-width:400px){
+    .articles__item{
+        width: 100%;
+    }
+    .articles__img{
+        width: 100%;
+    }
+    .articles__content{
+        width: 100%;
     }
 }
